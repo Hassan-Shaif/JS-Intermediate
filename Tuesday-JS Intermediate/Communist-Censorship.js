@@ -37,6 +37,7 @@ console.log (communist(X,'Love'));
 
     //1- function will take two arguments on for the arr and the other for the targetword
     //2-loop through each word inside the arr
-    //3-if statement will check if the word is the target word or not
-    //4-loop through the target word's elements and replace them with stars and push in the new arr(result)
-    //5-other words will be as well pushed into the new arr(result)
+    //3-if statement will check if the target word is inside the arr or not
+    //4-if yes, loop through the target word's elements and replace them with stars and push in the new arr(result)
+    //4-else push words into  new arr(result)
+    //5-return result
